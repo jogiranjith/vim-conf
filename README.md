@@ -3,24 +3,25 @@
 This vim configuration use [vundle
 project](https://github.com/gmarik/vundle).
 
-## How install this configuration
+## How to install this configuration
 
-1. Clone this project
+
+1. Install Vundle
+
+```
+$ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+```
+
+2. Clone this project
 
 ```
 $ git clone git://github.com/jogiranjith/vim-conf.git
 ```
 
-2. Link the vimrc in vim-conf clone to .vimrc
+3. Link or copy the vimrc in vim-conf clone to .vimrc
 
 ```
-$ ln -s ~/vim-conf/vimrc ~/.vimrc
-```
-
-3. Install Vundle
-
-```
-$ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+$ ln -s ~/vim-conf/vimrc ~/.vimrc or cp  ~/vim-conf/vimrc ~/.vimrc
 ```
 
 Now you can use the vimrc and use Vundle.
